@@ -10,9 +10,9 @@ namespace W9_EFCORE_INTRO.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            // Server=bitsql.wctc.edu;Database=GameDb_10022_pwhitney;User Id=pwhitney;Password=000587623;
+            // Server=bitsql.wctc.edu;Database=GameDb_10022_pwhitney;User Id=pwhitney;Password=MyPassword;
             // Server=(localdb)\\MSSQLLocalDB;Database=StartingEFCore;Trusted_Connection=True;
-            optionsBuilder.UseSqlServer("Server=bitsql.wctc.edu;Database=GameDb_10022_pwhitney;User Id=pwhitney;Password=000587623;");
+            optionsBuilder.UseSqlServer("Server=bitsql.wctc.edu;Database=GameDb_10022_pwhitney;User Id=pwhitney;Password=MyPassword;");
         }
         
         public void Seed()
